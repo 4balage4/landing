@@ -1,0 +1,29 @@
+.cards {
+display: flex;
+justify-content: space-between;
+margin-bottom: 30px;
+flex-wrap: wrap;
+}
+
+
+
+.card {
+width: 200px;
+padding: 20px;
+border-radius: 5px;
+text-align: center;
+background-color: rgba(199, 228, 245, 0.548);
+border-radius: 5px;
+box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+}
+
+.card:hover {
+  box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 20%);
+    transition: all 200ms ease-out;
+}
+
+
+.card img {
+  width: 150px;
+}

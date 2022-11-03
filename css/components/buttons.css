@@ -1,0 +1,17 @@
+.button-primary {
+  background-color: rgba(255, 167, 2, 0.75);
+  border-radius: 50px;
+  color: white;
+  padding: 15px 35px;
+  display: inline-block;
+  text-shadow: 0px 0px 1px rgb(2, 2, 2);
+  text-align: right;
+
+
+}
+
+.button-primary:hover {
+  background-color: rgb(255, 2, 2);
+  color: white;
+  text-shadow: 0px 0px 1px rgb(2, 2, 2);
+}
